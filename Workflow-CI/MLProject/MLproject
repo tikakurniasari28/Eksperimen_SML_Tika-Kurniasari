@@ -1,7 +1,7 @@
-name: retraining-model-sml
+name: my-project
 
 conda_env: conda.yaml
 
 entry_points:
   main:
-    command: python modelling.py
+    command: "python modelling.py"
