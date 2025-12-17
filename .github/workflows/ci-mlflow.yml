@@ -10,28 +10,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Setup Miniconda
+      - name: Setup conda
         uses: conda-incubator/setup-miniconda@v2
         with:
+          environment-file: Workflow-CI/MLProject/environment.yml
           activate-environment: mlflow-env
-          python-version: 3.10
           auto-update-conda: true
 
-      - name: Install mlflow + dependencies inside conda env
-        shell: bash -l {0}
-        run: |
-          conda install -c conda-forge mlflow scikit-learn pandas numpy -y
-
-      - name: Run mlflow training
+      - name: Train using MLflow
         shell: bash -l {0}
         run: |
           cd Workflow-CI/MLProject
           mlflow run .
 
-      - name: Upload MLflow Artifacts
+      - name: Upload MLflow artifacts
         uses: actions/upload-artifact@v4
         with:
           name: mlflow-artifacts
