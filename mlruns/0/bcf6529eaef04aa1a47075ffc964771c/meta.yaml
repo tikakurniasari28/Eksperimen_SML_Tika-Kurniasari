@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/kurni/Documents/Eksperimen_SML_Tika-Kurniasari/mlruns/0/bcf6529eaef04aa1a47075ffc964771c/artifacts
+end_time: 1765939457468
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bcf6529eaef04aa1a47075ffc964771c
+run_name: shivering-ram-448
+run_uuid: bcf6529eaef04aa1a47075ffc964771c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765939457324
+status: 4
+tags: []
+user_id: tika

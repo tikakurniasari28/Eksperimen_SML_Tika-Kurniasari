@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/kurni/Documents/Eksperimen_SML_Tika-Kurniasari/mlruns/0/db9262c86c0f4cea8e9e1b8c03102b69/artifacts
+end_time: 1765940791849
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: db9262c86c0f4cea8e9e1b8c03102b69
+run_name: bouncy-skunk-257
+run_uuid: db9262c86c0f4cea8e9e1b8c03102b69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765940786458
+status: 3
+tags: []
+user_id: tika
