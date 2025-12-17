@@ -30,10 +30,6 @@ jobs:
         with:
           name: mlflow-artifacts
           path: Workflow-CI/MLProject/mlruns
-
-      - name: Build Docker Image
-        run: |
-          mlflow models build-docker \
           -m "mlruns/0/<103752303406865964>/artifacts/model" \
           -n "<covid>:latest"
 
