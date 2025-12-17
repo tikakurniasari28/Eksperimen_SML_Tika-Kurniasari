@@ -3,8 +3,6 @@ name: Preprocessing Dataset Otomatis
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   preprocess:
@@ -21,10 +19,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install pandas scikit-learn
 
       - name: Run preprocessing script
         run: |
-          python src/automate_ni_luh_made_tika_kurniasari.py
-
+          python src/automate_Ni-Luh-Made-Tika-Kurniasari.py
