@@ -1,12 +1,4 @@
-import kagglehub
-
-path = kagglehub.dataset_download("imdevskp/corona-virus-report")
-print(path)
-!ls $path
-
-!mkdir -p data/raw
-!cp $path/day_wise.csv data/raw/
-    
+   
      %%writefile src/automate_Ni-Luh-Made-Tika-Kurniasari.py
      from pathlib import Path
      import pandas as pd
@@ -39,7 +31,3 @@ print(path)
      
      if __name__ == "__main__":
          preprocess_data()
-
-!python src/automate_Ni-Luh-Made-Tika-Kurniasari.py
-
-!ls data/processed
