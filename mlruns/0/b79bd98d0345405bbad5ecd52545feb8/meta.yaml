@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/kurni/Documents/Eksperimen_SML_Tika-Kurniasari/mlruns/0/b79bd98d0345405bbad5ecd52545feb8/artifacts
+end_time: 1766417610474
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b79bd98d0345405bbad5ecd52545feb8
+run_name: charming-grub-169
+run_uuid: b79bd98d0345405bbad5ecd52545feb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766417603067
+status: 3
+tags: []
+user_id: tika
